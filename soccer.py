@@ -278,7 +278,8 @@ class World:
         if self.commentator:
             print 'Player Order: {}'.format(player_order)
             print 'Actions: {}'.format(a)
-            print 'A: ({}, {})'.format(self.players['A'].x, self.players['A'].y)
-            print 'B: ({}, {})'.format(self.players['B'].x, self.players['B'].y)
+            print 'A location: ({}, {})'.format(self.players['A'].x, self.players['A'].y)
+            print 'B location: ({}, {})'.format(self.players['B'].x, self.players['B'].y)
+            print ""
 
         return self.map_player_state(), r, goal
