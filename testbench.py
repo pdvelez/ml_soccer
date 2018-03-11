@@ -86,7 +86,7 @@ def main():
     world.move(actions)
     actions = {'A': 4, 'B': 2}
     world.move(actions)
-    world.move(actions)
+    new_state, rewards, goal = world.move(actions)
     world.plot_grid()
     print_status(goal, new_state, rewards, total_states)
 
