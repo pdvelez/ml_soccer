@@ -55,7 +55,7 @@ class World:
         grid = [['**'] * (self.cols + 2)]
 
         for i in xrange(self.rows):
-            grid.append(['**', 'gA'] + ['  '] * (self.cols - 2) + ['gB', '**'])
+            grid.append(['**', 'gB'] + ['  '] * (self.cols - 2) + ['gA', '**'])
 
         grid.append(['**'] * (self.cols + 2))
 
